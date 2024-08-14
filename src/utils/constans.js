@@ -1,4 +1,9 @@
+import { useSelector } from "react-redux";
+
+
+
 export const headerSideBar = ["🏠Home", "▶️Sorts", "🎬Subscription"];
+
 
 export const HEADER = [
   "You",
@@ -56,6 +61,6 @@ export const MAIN_CONT_BUTTON = [
 ];
 
 
-let API_KEY = 'AIzaSyDjLMvTqWMf-FUV-v0tfLQeHqkU66MX1DE'
+export let API_KEY = 'AIzaSyCpQSQ8GO_H9DI4sL4DZ7XOSURXRlwsec8'
 
 export let YOUTUBE_API = ' https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=' + API_KEY

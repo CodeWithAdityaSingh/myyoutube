@@ -6,12 +6,11 @@ const VideoCard = ({data}) => {
 
   const {statistics} = data
 
-  console.log(data);
    
 
 
  const{description,channelTitle,title,thumbnails} = snippet
- console.log(title);
+
 
  const{url} = thumbnails.high
 
